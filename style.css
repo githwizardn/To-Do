@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  min-height: 250px;
+  max-height: 450px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+#displayTodo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
